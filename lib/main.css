@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(215, 241, 252);
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: rgb(250, 233, 210);
+    box-shadow: 0 5px 5px rgba(0, 19, 3, 0.281);
+}
+
+.navbar-brand img,
+.navbar-brand{
+    max-height: 90px;
+    max-width: 60%;
+}
+
+#carouselHeader {
+    max-height: 50vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.logoHeader{
+    position: absolute;
+    max-width: 80vw;
+    z-index: 100;
+    top: 5vh;
+    left: 8vw;
+}
+
+h2{
+    color: #6e4201;
+    font-weight: bolder;
+}
+
+h2, .nav-item, h4{
+    font-family: 'Rock Salt', cursive;
+}
+
+.nav-item{
+    margin-left: 6px;
+}
+
+.nav-link{
+    color: #f6a757 !important;
+}
+
+.nav-link:hover{
+    color: #6e4201 !important;
+}
+
+nav .nav-link.active{
+    color: #6e4201 !important;
+    background-color: #f6a757 !important;
+}
+
+#sobre, #food, footer{
+    background-color: rgb(250, 233, 210);
+}
+
+#carouselSobre{
+    border-radius: 16px;
+    box-shadow: 7px 10px 12px rgba(0, 19, 3, 0.281);
+    border: 5px solid #6e4201;
+}
+
+#carouselSobre .carousel-item{
+    border-radius: 10px;
+    background-color: #f6a757;
+}
+
+#carouselSobre .carousel-item h4{
+    color: #6e4201;
+    font-weight: bold;
+}
+
+#carouselSobre .carousel-item p{
+    padding-bottom: 30px;
+    color: #6e4201;
+}
+
+.card{
+    border: 5px solid #6e4201;
+    box-shadow: 7px 10px 12px rgba(0, 19, 3, 0.281);
+}
+
+.card-body{
+    height: 200px;
+    background-color: rgb(250, 233, 210);
+}
+
+.card-body h3{
+    font-family: 'Rock Salt', cursive;
+    color: #6e4201;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-body p{
+    font-weight: bold;
+    text-align: center;
+    color: #6e4201;
+}
+
+.wave{
+    width: 100vw;
+}
+
+#contato h4{
+    color: #6e4201;
+}
+
+.form-floating>label.error{
+    position: relative;
+    font-size: 16px;
+    padding: 0;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label.error{
+    transform: none;
+    opacity: 100%;
+}
+
+.form-floating>.form-control:placeholder-shown~label.error{
+    transform: none;
+    opacity: 100%;
+}
+
+input, textarea{
+    cursor: text;
+}
+
+input.error, textarea.error{
+    border: 2px solid brown;
+    color: brown;
+}
+
+input.error~label, textarea.error~label{
+    color: brown;
+}
+
+input.valid, textarea.valid{
+    border: 2px solid rgb(11, 102, 31);
+}
+
+.btn-custom{
+    background-color: rgb(250, 233, 210);
+    color: #6e4201;
+    font-family: 'Rock Salt', cursive;
+    border: 2px solid #6e4201;
+    font-weight: 900;
+}
+
+.btn-custom:hover{
+    background-color: #f6a757;
+    color: rgb(250, 233, 210);
+    border: 2px solid #6e4201;
+}
+
+footer{
+    color: #6e4201;
+}
